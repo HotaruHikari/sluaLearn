@@ -1,0 +1,99 @@
+print("Bag.lua 启动")
+
+--继承Object
+Object:subClass("Bag")
+
+Bag.obj = nil
+Bag.weaponBtn = nil
+Bag.itemBtn = nil
+Bag.backBtn = nil
+Bag.isInit = false
+Bag.itemPanel = nil
+-- 所有格子
+Bag.Grids = {}
+Bag.GridItems = {}
+-- 当前页
+Bag.nowType = -1
+
+function Bag:Init()
+	if not self.isInit then
+		-- 初次加载
+		self.isInit = true
+		self.obj = AssetLoader.Instance:LuaClone("Launch", "Assets/GameAssets/Launch/BagPanel.prefab");
+		--设置父对象
+		self.obj.transform:SetParent(GameObject.Find("Canvas").transform,false)
+		self.itemPanel = self.obj.transform:Find("ItemPanel").gameObject
+		--获取组件与初始化
+		self.weaponBtn = self.obj.transform:Find("WeaponBtn"):GetComponent("Button")
+		self.weaponBtn.onClick:AddListener(function()
+			self:ChangeType(1)
+		end)
+		self.itemBtn = self.obj.transform:Find("ItemBtn"):GetComponent("Button")
+		self.itemBtn.onClick:AddListener(function()
+			self:ChangeType(2)
+		end)
+		self.backBtn = self.obj.transform:Find("BackBtn"):GetComponent("Button")
+		self.backBtn.onClick:AddListener(function()
+			self:OnBackBtnClick()
+		end)
+
+		-- 获取所有格子
+		for i=1, self.itemPanel.transform.childCount do
+			self.Grids[i] = self.itemPanel.transform:GetChild(i - 1)
+		end
+		print("格子数".. #self.Grids)
+	end
+
+	-- 激活
+	self.obj:SetActive(true)
+	self:ChangeType(1)
+end
+
+--切页签的逻辑
+--type 显示的页签种类：1-装备，2-道具
+function Bag:ChangeType(type)
+	--如果已经是当前页签，就不再更新
+	if self.nowType == type then
+		return
+	else
+		self.nowType = type
+	end
+	--遍历之前清除格子数据
+	for i=1,#self.GridItems do
+		self.GridItems[i]:Destroy()
+	end
+	self.GridItems = {}
+	
+	--根据页签种类确定数据
+	local nowItems = nil
+	if type == 1 then
+		nowItems = ItemData.equips
+	elseif type == 2 then
+		nowItems = ItemData.items
+	end
+
+	--遍历创建格子
+	for i = 1,#nowItems do
+		--创建一个格子对象
+		local grid = ItemGrid:new()
+		--实例化
+		grid:Init(self.Grids[i])
+		--初始化信息
+		grid:InitData(nowItems[i])
+
+		-- 注册点击事件
+		if type == 2 then
+			grid:InitBtn()
+		end
+		
+		--存储到容器中
+		table.insert(self.GridItems,grid)
+	end
+end
+
+function Bag:OnBackBtnClick()
+	-- 关闭背包
+	self.isInit = false
+	GameObject.Destroy(self.obj)
+	Menu:ShowMe()
+end 

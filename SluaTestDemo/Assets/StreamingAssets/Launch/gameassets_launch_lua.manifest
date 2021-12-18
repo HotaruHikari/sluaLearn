@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3029777124
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eadb36c7e26c2c97e3b23dac704ce145
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameAssets/Launch/Lua/Menu.txt
+- Assets/GameAssets/Launch/Lua/Item.txt
+- Assets/GameAssets/Launch/Lua/Bag.txt
+- Assets/GameAssets/Launch/Lua/Main.txt
+- Assets/GameAssets/Launch/Lua/Object.txt
+- Assets/GameAssets/Launch/Lua/ItemGrid.txt
+- Assets/GameAssets/Launch/Lua/MessageBox.txt
+Dependencies: []

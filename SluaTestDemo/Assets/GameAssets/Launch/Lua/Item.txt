@@ -1,0 +1,33 @@
+print("Item.lua 启动")
+
+--继承Object
+Object:subClass("ItemData")
+
+-- 道具信息
+ItemData.equips = {}
+ItemData.items = {}
+
+function ItemData:Init()
+	-- 添加道具数据(道具的名称与数量)
+	table.insert(self.items,{name = "Item01",num = 1})
+	table.insert(self.items,{name = "Item02",num = 1})
+	table.insert(self.items,{name = "Item03",num = 3})
+	table.insert(self.items,{name = "Item04",num = 3})
+	table.insert(self.items,{name = "Item05",num = 5})
+	-- 装备
+	table.insert(self.equips,{name = "Weapon01",num = 50})
+	table.insert(self.equips,{name = "Weapon02",num = 20})
+	table.insert(self.equips,{name = "Weapon03",num = 30})
+	table.insert(self.equips,{name = "Weapon04",num = 10})
+	table.insert(self.equips,{name = "Weapon05",num = 25})
+end 
+
+function ItemData:ChangeNum(name, num)
+	for i = 1, #self.items do
+		if self.items[i].name == name then
+			self.items[i].num = self.items[i].num - num
+		end
+	end
+end
+
+ItemData:Init()

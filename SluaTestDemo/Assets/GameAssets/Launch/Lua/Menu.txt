@@ -1,0 +1,33 @@
+print("Menu.lua 启动")
+
+--继承
+Object:subClass("Menu")
+
+Menu.obj = nil
+Menu.menuBtn = nil
+
+--提供一个初始化方法
+function Menu:Init()
+    self.obj = GameObject.Find("Canvas/BagBtn")
+    self.menuBtn = self.obj:GetComponent("Button")
+    self.menuBtn.onClick:AddListener(function()
+        self:OnBtnClick()
+    end)
+end
+
+function Menu:OnBtnClick()
+    -- 打开背包界面
+    print("打开背包")
+    Menu:HideMe()
+    Bag:Init()
+end
+
+--显隐方法
+function Menu:ShowMe()
+    self.obj:SetActive(true)
+end
+function Menu:HideMe()
+    self.obj:SetActive(false)
+end
+
+Menu:Init()

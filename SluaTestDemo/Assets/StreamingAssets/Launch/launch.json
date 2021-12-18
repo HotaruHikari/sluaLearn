@@ -1,0 +1,186 @@
+{
+    "BundleArray": {
+        "gameassets_launch": {
+            "bundle_name": "gameassets_launch",
+            "crc": "e82cc86f",
+            "size": 11715,
+            "assets": [
+                "Assets/GameAssets/Launch/BagPanel.prefab",
+                "Assets/GameAssets/Launch/GridItem.prefab",
+                "Assets/GameAssets/Launch/MessageBox.prefab",
+                "Assets/GameAssets/Launch/New Sprite.prefab",
+                "Assets/GameAssets/Launch/Sphere.prefab"
+            ]
+        },
+        "gameassets_launch_lua": {
+            "bundle_name": "gameassets_launch_lua",
+            "crc": "f8cbd400",
+            "size": 3138,
+            "assets": [
+                "Assets/GameAssets/Launch/Lua/Bag.txt",
+                "Assets/GameAssets/Launch/Lua/Item.txt",
+                "Assets/GameAssets/Launch/Lua/ItemGrid.txt",
+                "Assets/GameAssets/Launch/Lua/Main.txt",
+                "Assets/GameAssets/Launch/Lua/Menu.txt",
+                "Assets/GameAssets/Launch/Lua/MessageBox.txt",
+                "Assets/GameAssets/Launch/Lua/Object.txt"
+            ]
+        },
+        "gameassets_launch_mat": {
+            "bundle_name": "gameassets_launch_mat",
+            "crc": "fa2c59b8",
+            "size": 26457,
+            "assets": [
+                "Assets/GameAssets/Launch/Mat/New Material.mat"
+            ]
+        },
+        "gameassets_launch_sprite": {
+            "bundle_name": "gameassets_launch_sprite",
+            "crc": "3149669b",
+            "size": 6776,
+            "assets": [
+                "Assets/GameAssets/Launch/Sprite/Item01.png",
+                "Assets/GameAssets/Launch/Sprite/Item02.png",
+                "Assets/GameAssets/Launch/Sprite/Item03.png",
+                "Assets/GameAssets/Launch/Sprite/Item04.png",
+                "Assets/GameAssets/Launch/Sprite/Item05.png",
+                "Assets/GameAssets/Launch/Sprite/Square.png",
+                "Assets/GameAssets/Launch/Sprite/Weapon01.png",
+                "Assets/GameAssets/Launch/Sprite/Weapon02.png",
+                "Assets/GameAssets/Launch/Sprite/Weapon03.png",
+                "Assets/GameAssets/Launch/Sprite/Weapon04.png",
+                "Assets/GameAssets/Launch/Sprite/Weapon05.png",
+                "Assets/GameAssets/Launch/Sprite/Weapon06.png"
+            ]
+        }
+    },
+    "AssetArray": [
+        {
+            "asset_path": "Assets/GameAssets/Launch/BagPanel.prefab",
+            "bundle_name": "gameassets_launch",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/GridItem.prefab",
+            "bundle_name": "gameassets_launch",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/MessageBox.prefab",
+            "bundle_name": "gameassets_launch",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/New Sprite.prefab",
+            "bundle_name": "gameassets_launch",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Sphere.prefab",
+            "bundle_name": "gameassets_launch",
+            "dependencies": [
+                "gameassets_launch_mat"
+            ]
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Lua/Bag.txt",
+            "bundle_name": "gameassets_launch_lua",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Lua/Item.txt",
+            "bundle_name": "gameassets_launch_lua",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Lua/ItemGrid.txt",
+            "bundle_name": "gameassets_launch_lua",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Lua/Main.txt",
+            "bundle_name": "gameassets_launch_lua",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Lua/Menu.txt",
+            "bundle_name": "gameassets_launch_lua",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Lua/MessageBox.txt",
+            "bundle_name": "gameassets_launch_lua",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Lua/Object.txt",
+            "bundle_name": "gameassets_launch_lua",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Mat/New Material.mat",
+            "bundle_name": "gameassets_launch_mat",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Sprite/Item01.png",
+            "bundle_name": "gameassets_launch_sprite",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Sprite/Item02.png",
+            "bundle_name": "gameassets_launch_sprite",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Sprite/Item03.png",
+            "bundle_name": "gameassets_launch_sprite",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Sprite/Item04.png",
+            "bundle_name": "gameassets_launch_sprite",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Sprite/Item05.png",
+            "bundle_name": "gameassets_launch_sprite",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Sprite/Square.png",
+            "bundle_name": "gameassets_launch_sprite",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Sprite/Weapon01.png",
+            "bundle_name": "gameassets_launch_sprite",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Sprite/Weapon02.png",
+            "bundle_name": "gameassets_launch_sprite",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Sprite/Weapon03.png",
+            "bundle_name": "gameassets_launch_sprite",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Sprite/Weapon04.png",
+            "bundle_name": "gameassets_launch_sprite",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Sprite/Weapon05.png",
+            "bundle_name": "gameassets_launch_sprite",
+            "dependencies": []
+        },
+        {
+            "asset_path": "Assets/GameAssets/Launch/Sprite/Weapon06.png",
+            "bundle_name": "gameassets_launch_sprite",
+            "dependencies": []
+        }
+    ]
+}

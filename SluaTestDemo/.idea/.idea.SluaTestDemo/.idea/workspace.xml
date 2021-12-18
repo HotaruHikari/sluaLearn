@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1647ae37-838b-4841-ba44-be10551320c7" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/GameMain/Scripts/Res.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/75864595-EFE8-492B-870F-93F7F6119385/92/83c49cd4/BuildPipelineInterfaces.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/96A29805-40AC-4006-B7A0-4455C3E3AD39/ae/b10f6566/AsyncMethodBuilderCore.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../mmowork/Src/Client/Assets/Scripts/Utilities/MonoSingleton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A378389A-6AFC-44F5-B26E-4EC2E9357BD2/a6/28e5eabf/BaseInputModule.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/Util/MonoSingleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/ABTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Slua/Resources/custom.txt" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/framework/AssetUtility.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/framework/ExtensionMethods.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/framework/BundleRef.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/framework/AssetRef.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/framework/BaseConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/Res.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/framework/ModuleManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/framework/AssetLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/framework/ModuleABConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/framework/Downloader.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/framework/MessageBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/framework/MainStart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Slua/Resources/circle/circle.txt" />
+        <option value="$PROJECT_DIR$/Assets/Slua/Resources/delegate.txt" />
+        <option value="$PROJECT_DIR$/Assets/Slua/example/Custom.cs" />
+        <option value="$PROJECT_DIR$/Assets/Slua/example/Main.cs" />
+        <option value="$PROJECT_DIR$/Assets/Slua/Resources/main.txt" />
+        <option value="$PROJECT_DIR$/Assets/Slua/example/NewCoroutine.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/sluaTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Slua/example/Circle.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/ABManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameAssets/Launch/Lua/Object.txt" />
+        <option value="$PROJECT_DIR$/Assets/GameAssets/Launch/Lua/Grid.txt" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/LuaBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/Res/MainStart.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/Util/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Slua/Editor/CustomExport.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/Res/AssetLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameAssets/Launch/Lua/BasePanel.txt" />
+        <option value="$PROJECT_DIR$/Assets/GameAssets/Launch/Lua/Menu.txt" />
+        <option value="$PROJECT_DIR$/Assets/GameAssets/Launch/Lua/Main.txt" />
+        <option value="$PROJECT_DIR$/Assets/GameAssets/Launch/Lua/Item.txt" />
+        <option value="$PROJECT_DIR$/Assets/GameAssets/Launch/Lua/MessageBox.txt" />
+        <option value="$PROJECT_DIR$/Assets/GameAssets/Launch/Lua/ItemGrid.txt" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/Res/Downloader.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/Editor/ABEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameAssets/Launch/Lua/Bag.txt" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/MainStart.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/LuaManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameMain/Scripts/Util/MessageBox.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="21xAOPvHx9taMIKguE56ChmJwez" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.48563612" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3002736" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.23836389" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1647ae37-838b-4841-ba44-be10551320c7" name="默认的" comment="" />
+      <created>1638872366472</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638872366472</updated>
+      <workItem from="1638872366972" duration="106000" />
+      <workItem from="1638967518583" duration="17677000" />
+      <workItem from="1639126505249" duration="93000" />
+      <workItem from="1639126647216" duration="229000" />
+      <workItem from="1639127163912" duration="820000" />
+      <workItem from="1639128077319" duration="5615000" />
+      <workItem from="1639141971724" duration="721000" />
+      <workItem from="1639149116078" duration="21224000" />
+      <workItem from="1639309672603" duration="9250000" />
+      <workItem from="1639319540019" duration="3702000" />
+      <workItem from="1639373778364" duration="2134000" />
+      <workItem from="1639376111200" duration="12876000" />
+      <workItem from="1639559250812" duration="16447000" />
+      <workItem from="1639619518617" duration="3055000" />
+      <workItem from="1639622771407" duration="20886000" />
+      <workItem from="1639645925790" duration="90000" />
+      <workItem from="1639731521630" duration="17593000" />
+      <workItem from="1639795462656" duration="2955000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="524" y="115" key="#xdebugger.evaluate" timestamp="1639319832946">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1639319832946" />
+    <state width="542" height="464" key="DebuggerActiveHint" timestamp="1639377092622">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="542" height="464" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1639377092622" />
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1639645788652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1639645788652" />
+    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1639645788651">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1639645788651" />
+    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1639645788651">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1639645788651" />
+    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1639645788651">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1639645788651" />
+    <state width="1493" height="212" key="GridCell.Tab.1.bottom" timestamp="1639645788652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1639645788652" />
+    <state width="1493" height="212" key="GridCell.Tab.1.center" timestamp="1639645788652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1639645788652" />
+    <state width="1493" height="212" key="GridCell.Tab.1.left" timestamp="1639645788652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1639645788652" />
+    <state width="1493" height="212" key="GridCell.Tab.1.right" timestamp="1639645788652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1639645788652" />
+    <state width="1493" height="212" key="GridCell.Tab.2.bottom" timestamp="1639645788653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1639645788653" />
+    <state width="1493" height="212" key="GridCell.Tab.2.center" timestamp="1639645788653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1639645788653" />
+    <state width="1493" height="212" key="GridCell.Tab.2.left" timestamp="1639645788653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1639645788653" />
+    <state width="1493" height="212" key="GridCell.Tab.2.right" timestamp="1639645788653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1639645788653" />
+    <state width="1493" height="212" key="GridCell.Tab.3.bottom" timestamp="1639645788654">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1639645788654" />
+    <state width="1493" height="212" key="GridCell.Tab.3.center" timestamp="1639645788653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1639645788653" />
+    <state width="1493" height="212" key="GridCell.Tab.3.left" timestamp="1639645788653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1639645788653" />
+    <state width="1493" height="212" key="GridCell.Tab.3.right" timestamp="1639645788653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="212" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1639645788653" />
+    <state x="190" y="30" width="996" height="715" key="SettingsEditor" timestamp="1639128394991">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="190" y="30" width="996" height="715" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1639128394991" />
+    <state x="702" y="64" width="672" height="678" key="search.everywhere.popup" timestamp="1639197483281">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="702" y="64" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1639197483281" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/GameMain/Scripts/framework/ModuleManager.cs</url>
+          <line>76</line>
+          <properties documentPath="E:\unity project\SluaTestDemo\Assets\GameMain\Scripts\framework\ModuleManager.cs" initialLine="76" />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

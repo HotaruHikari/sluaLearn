@@ -1,0 +1,31 @@
+print("MessageBox.lua启动")
+--继承Object
+Object:subClass("MessageBox")
+
+MessageBox.obj = nil
+MessageBox.btnNo = nil
+MessageBox.btnYes = nil
+
+--初始化格子
+function MessageBox:Init(itemGrid, name)
+	self.obj = AssetLoader.Instance:LuaClone("Launch", "Assets/GameAssets/Launch/MessageBox.prefab");
+	--设置父对象
+	self.obj.transform:SetParent(GameObject.Find("Canvas").transform,false)
+	self.btnYes = self.obj.transform:Find("YES"):GetComponent("Button")
+	self.btnYes.onClick:AddListener(function()
+		-- 使用道具
+		print("使用道具")
+		ItemData:ChangeNum(name, 1)
+		itemGrid.Text.text = itemGrid.Text.text - 1
+		if itemGrid.Text.text == "0" then
+			itemGrid:Destroy()
+		end
+		GameObject.Destroy(self.obj)
+	end)
+	self.btnNo = self.obj.transform:Find("NO"):GetComponent("Button")
+	self.btnNo.onClick:AddListener(function()
+		-- 关闭
+		GameObject.Destroy(self.obj)
+	end)
+end
+

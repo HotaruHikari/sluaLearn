@@ -1,0 +1,33 @@
+print("Main.lua 启动")
+
+import "UnityEngine"
+if not UnityEngine.GameObject or not  UnityEngine.UI then
+	error("Click Make/All to generate lua wrap file")
+end
+
+local class = {}
+
+-- 入口
+function main()
+
+	return class
+end
+
+function class:update() 
+	print("update")
+end
+
+-- 加载文件
+dofile('Launch/Lua/Object.txt')
+dofile('Launch/Lua/Item.txt')
+dofile('Launch/Lua/ItemGrid.txt')
+dofile('Launch/Lua/Bag.txt')
+dofile('Launch/Lua/Menu.txt')
+dofile('Launch/Lua/MessageBox.txt')
+
+
+
+
+
+
+

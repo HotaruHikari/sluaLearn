@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 2732100742
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d02ff107e32bfa6097ed2cfbdf37f9a0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 460b4f5d62b6facbccf7c01637df8f00
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/GameAssets/Launch/Sprite/Item02.png
+- Assets/GameAssets/Launch/Sprite/Weapon06.png
+- Assets/GameAssets/Launch/Sprite/Item01.png
+- Assets/GameAssets/Launch/Sprite/Square.png
+- Assets/GameAssets/Launch/Sprite/Weapon04.png
+- Assets/GameAssets/Launch/Sprite/Item04.png
+- Assets/GameAssets/Launch/Sprite/Weapon05.png
+- Assets/GameAssets/Launch/Sprite/Weapon03.png
+- Assets/GameAssets/Launch/Sprite/Weapon01.png
+- Assets/GameAssets/Launch/Sprite/Item03.png
+- Assets/GameAssets/Launch/Sprite/Weapon02.png
+- Assets/GameAssets/Launch/Sprite/Item05.png
+Dependencies: []

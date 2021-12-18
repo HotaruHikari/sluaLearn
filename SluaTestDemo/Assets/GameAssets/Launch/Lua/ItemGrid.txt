@@ -1,0 +1,46 @@
+print("ItemGrid.lua启动")
+--继承Object
+Object:subClass("ItemGrid")
+
+--格子的控件
+ItemGrid.obj = nil
+ItemGrid.imgIcon = nil
+ItemGrid.Text = nil
+ItemGrid.btn = nil
+
+--初始化格子
+function ItemGrid:Init(father)
+	self.obj = AssetLoader.Instance:LuaClone("Launch", "Assets/GameAssets/Launch/GridItem.prefab");
+	--设置父对象
+	self.obj.transform:SetParent(father,false)
+	self.btn = self.obj.transform:Find("Button"):GetComponent("Button")
+	--设置图标和数量
+	self.imgIcon = self.obj.transform:Find("Button"):GetComponent("Image")
+	self.Text = self.obj.transform:Find("Text"):GetComponent("Text")
+end
+
+--根据信息初始化格子信息
+function ItemGrid:InitData(d)
+	if d.num <= 0 then
+		return
+	end
+	self.imgIcon.sprite = AssetLoader.Instance:LuaCreateAsset("Launch", "Assets/GameAssets/Launch/Sprite/" .. d.name .. ".png", self.obj, Sprite)
+	self.Text.text = d.num
+end
+
+-- 点击按钮， 打开使用面板
+function ItemGrid:InitBtn()
+	self.btn.onClick:AddListener(function()
+		if self.Text.text == "0" then
+			return
+		end
+		local box = MessageBox:new()
+		box:Init(self, self.imgIcon.sprite.name)
+	end)
+end
+
+--删除方法
+function ItemGrid:Destroy()
+	GameObject.Destroy(self.obj)
+	self.obj = nil
+end
