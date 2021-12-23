@@ -991,13 +991,13 @@
       <HintPath>E:/Program Files/2017.4.40c1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>E:/unity project/sluaLearn/sluaLearn/SluaTestDemo/Assets/GameMain/Libraries/LitJson.dll</HintPath>
+      <HintPath>E:/unity project/sluaLearn/123/sluaLearn/SluaTestDemo/Assets/GameMain/Libraries/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>E:/unity project/sluaLearn/sluaLearn/SluaTestDemo/Assets/GameMain/Libraries/Newtonsoft.Json.dll</HintPath>
+      <HintPath>E:/unity project/sluaLearn/123/sluaLearn/SluaTestDemo/Assets/GameMain/Libraries/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="BytesHelper">
-      <HintPath>E:/unity project/sluaLearn/sluaLearn/SluaTestDemo/Assets/Plugins/Slua_Managed/BytesHelper.dll</HintPath>
+      <HintPath>E:/unity project/sluaLearn/123/sluaLearn/SluaTestDemo/Assets/Plugins/Slua_Managed/BytesHelper.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/dell/AppData/Local/Unity/cache/packages/packages.unity.cn/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll</HintPath>
